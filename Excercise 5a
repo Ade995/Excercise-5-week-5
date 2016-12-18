@@ -8,3 +8,8 @@ while True:
       print("accepted")
       print("you have attempted"+str(count)+"times")
       break
+      
+  if count>=6:
+           print("Acess denied, please press enter to exit and contact secrity)
+           
+           break 
