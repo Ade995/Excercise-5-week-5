@@ -1,0 +1,9 @@
+password="changeme"
+
+
+while True:
+  
+  enterpass=input("please type your password:")
+  if password == enterpass:
+      print("accepted")
+      break
